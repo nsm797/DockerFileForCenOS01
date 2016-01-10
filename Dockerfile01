@@ -1,4 +1,4 @@
-FROM daocloud.io/centos:trusty
+FROM daocloud.io/centos:latest
 MAINTAINER Vincent Nam <vince797@aliyun.com>
 RUN yum -y install sysstat net-tools tcpdump procps-ng tree vim yum-utils nmap-ncat 
 RUN mkdir -p /opt
